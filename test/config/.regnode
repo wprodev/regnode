@@ -1,0 +1,10 @@
+---
+# regnode's configuration file
+debug: false
+api-token: token-wzq4v:njmx9bhf78xl5lzk5sb6xgvr4ltckhj6js7zqvlb5vpp9dcdqwkbmp
+api-url: https://rancher.protasik.pl
+cluster:
+  name: cluster-1
+  wroker: false
+  etcd: false
+  controlplane: false
