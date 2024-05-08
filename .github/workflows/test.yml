@@ -11,7 +11,7 @@ on:
 
 jobs:
   build:
-    runs-on: golang/1.22.3-alpine3.19
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
