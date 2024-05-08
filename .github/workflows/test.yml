@@ -25,4 +25,3 @@ jobs:
           path: build/*/regnode
           retention-days: 5
           overwrite: true
-
