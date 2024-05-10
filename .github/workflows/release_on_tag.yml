@@ -10,6 +10,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
       - name: Extract Tag Name
         run: echo "Tag name ${{ github.ref_name }}"
 
