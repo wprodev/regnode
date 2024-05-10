@@ -7,4 +7,5 @@
 *.prof
 *.out
 vendor/
+# Makefile built binaries
 build/
